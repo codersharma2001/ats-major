@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Tracking System</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ... your HTML content ... -->
+    <header>
+        <h1 class="animated-heading">Application Tracking System</h1>
+    </header>
+    <div class="container">
+        <div class="applicant-form">
+            <h2 class="animated-heading">Applicant Information</h2>
+            <form action="/submit" method="post" enctype="multipart/form-data">
+                <label for="name">Applicant Name:</label>
+                <input type="text" name="name" required>
+                <span> </span>
+                <label for="resume">Resume (PDF):</label>
+                <span> </span>
+                <input type="file" name="resume" accept=".pdf" required>
+                <label for="resume">Upload Job Description :</label>
+                <span> </span>
+                <input type="file" name="description" accept=".pdf" required>
+                <div>or</div>
+                <span> </span>
+                <input type="text">
+                <button class="animated-heading">Submit Application</button>
+            </form>
+        </div>
+    </div>
+     <img  class="bottom-left-image" src="./1.png">
+     <img  class="bottom-right-image" src="./2.png">
+     <img  class="top-image" src="./3.png">
+    <footer>
+        
+        <div class="social-media">
+            <a href="#" class="animated" id="facebook">Connect  with us</a>
+            <a href="#" class="animated" id="facebook">Facebook</a>
+            <a href="#" class="animated" id="twitter">Twitter</a>
+            <a href="#" class="animated" id="linkedin">LinkedIn</a>
+            <a href="#" class="animated" id="instagram">Instagram</a>
+        </div>
+    </footer>
+     
+    
+</body>
+
+</html>
